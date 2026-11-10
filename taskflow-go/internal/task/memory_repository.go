@@ -12,7 +12,8 @@ import (
 // Concurrency & Synchronization Architecture:
 // In Go, native maps (`map[K]V`) are NOT safe for concurrent use. If one goroutine writes to a map
 // while another is reading or writing, the Go runtime crashes immediately with an unrecoverable panic:
-//   "fatal error: concurrent map read and map write"
+//
+//	"fatal error: concurrent map read and map write"
 //
 // Java / Spring Boot Comparison:
 // In Java, developers often use `java.util.concurrent.ConcurrentHashMap` or `@Transactional` with an RDBMS.
