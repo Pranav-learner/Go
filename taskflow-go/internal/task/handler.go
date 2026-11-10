@@ -208,3 +208,4 @@ func (h *Handler) mapError(w http.ResponseWriter, err error) {
 		response.Error(w, http.StatusInternalServerError, "INTERNAL_SERVER_ERROR", "An unexpected error occurred")
 	}
 }
+

@@ -28,3 +28,4 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 func RegisterRoutes(mux *http.ServeMux) {
 	mux.HandleFunc("GET /api/v1/health", Handler)
 }
+

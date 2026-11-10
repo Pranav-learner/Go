@@ -37,3 +37,4 @@ func Logging(logger *slog.Logger) Middleware {
 		})
 	}
 }
+

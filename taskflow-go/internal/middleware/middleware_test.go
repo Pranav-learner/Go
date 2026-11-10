@@ -88,3 +88,4 @@ func TestChainMiddleware(t *testing.T) {
 		}
 	}
 }
+

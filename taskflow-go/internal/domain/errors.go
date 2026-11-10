@@ -19,3 +19,4 @@ var (
 	// ErrInvalidTaskID is returned when a task ID is empty or malformed.
 	ErrInvalidTaskID = errors.New("invalid task id")
 )
+

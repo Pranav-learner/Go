@@ -61,3 +61,4 @@ func TestNewUUID(t *testing.T) {
 		t.Fatalf("expected unique uuids, got duplicate: %s", id1)
 	}
 }
+

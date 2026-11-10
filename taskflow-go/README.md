@@ -315,3 +315,4 @@ gofmt -s -l .
 * [ ] **Phase 3 — Persistence (Future)**: PostgreSQL integration using `pgx`, connection pooling, database migrations.
 * [ ] **Phase 4 — Security & Auth (Future)**: JWT authentication, password hashing (`bcrypt`), role-based authorization.
 * [ ] **Phase 5 — Observability & Deployment (Future)**: Prometheus metrics, OpenTelemetry tracing, Docker containerization.
+

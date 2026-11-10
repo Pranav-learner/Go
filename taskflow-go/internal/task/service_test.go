@@ -149,3 +149,4 @@ func TestService_Delete(t *testing.T) {
 		t.Errorf("expected ErrTaskNotFound deleting missing task, got %v", err)
 	}
 }
+

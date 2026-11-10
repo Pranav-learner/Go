@@ -32,3 +32,4 @@ func Recovery(logger *slog.Logger) Middleware {
 		})
 	}
 }
+

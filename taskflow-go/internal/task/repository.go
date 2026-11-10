@@ -27,3 +27,4 @@ type Repository interface {
 	// Delete removes a task by its unique ID. Returns domain.ErrTaskNotFound if missing.
 	Delete(ctx context.Context, id string) error
 }
+

@@ -84,3 +84,4 @@ func NewUUID() (string, error) {
 		uuid[10:],
 	), nil
 }
+
